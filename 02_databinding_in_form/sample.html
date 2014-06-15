@@ -1,0 +1,21 @@
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+    <script src="sample.js"></script>
+  </head>
+  <body>
+    <form ng-controller="SampleController">
+      <input type="text" ng-model="text" />
+
+      <input type="checkbox" ng-model="checkbox" />
+
+      <input type="radio" name="hoge" value="HOGE" ng-model="radio" />HOGE
+      <input type="radio" name="hoge" value="FUGA" ng-model="radio" />FUGA
+
+      <select ng-model="select">
+        <option value="foo">Foo</option>
+        <option value="bar">Bar</option>
+      </select>
+    </form>
+  </body>
+</html>

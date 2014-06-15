@@ -1,0 +1,3 @@
+function SampleController($scope) {
+// Nothing
+}
